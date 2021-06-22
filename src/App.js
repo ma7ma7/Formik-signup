@@ -1,6 +1,6 @@
 import Rocket from './assets/rocket.png';
 import SignUp from './components/SignUp';
-
+import './App.css';
 function App() {
   return (
     <div className='container mt-3'>
