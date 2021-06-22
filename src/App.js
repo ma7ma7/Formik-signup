@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Rocket from './assets/rocket.png';
+import SignUp from './components/SignUp';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container mt-3'>
+      <div className='row'>
+        <div className='col-md-5 col-sm-12'>
+          <SignUp />
+        </div>
+
+        <div className='col-md-7 my-auto'>
+          <img src={Rocket} alt='Rocket' className='img-fluid w-100' />
+        </div>
+      </div>
     </div>
   );
 }
