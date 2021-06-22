@@ -1,5 +1,6 @@
 import React from 'react';
 import { Formik, Form } from 'formik';
+import Feild from './Feild';
 
 function SignUp() {
   const initialValues = {
@@ -15,7 +16,9 @@ function SignUp() {
         <div>
           {console.log(formik.initialValues)}
           <h1>Sign up </h1>
-          <Form></Form>
+          <Form>
+            <Feild />
+          </Form>
         </div>
       )}
     </Formik>
